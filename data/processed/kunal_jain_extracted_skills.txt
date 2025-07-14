@@ -1,0 +1,19 @@
+Arduino
+Artificial Intelligence
+C
+C++
+Css
+Data Science
+Eda
+Git
+Github
+Html
+Java
+Javascript
+Machine Learning
+Mysql
+Nlp
+Power Bi
+Python
+React
+Sql

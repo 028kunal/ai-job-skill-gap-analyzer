@@ -1,0 +1,32 @@
+Python
+C
+C++
+Java
+JavaScript
+HTML
+CSS
+SQL
+MySQL
+Machine Learning
+Deep Learning
+NLP
+Artificial Intelligence
+Data Science
+Power BI
+Git
+GitHub
+Arduino
+React
+Node.js
+Flask
+Django
+TensorFlow
+Keras
+Pandas
+NumPy
+Scikit-learn
+EDA
+Prompt Engineering
+Data Analysis
+Cloud Computing
+API Development
