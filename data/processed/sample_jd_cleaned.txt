@@ -1,0 +1,16 @@
+Job Title: Junior Data Scientist - AI & ML Location: Bangalore, India We are looking for a passionate Junior Data Scientist to join our AI & ML team to help build, deploy, and optimize machine learning models for real-world business problems.
+Responsibilities: - Perform exploratory data analysis (EDA) on structured and unstructured datasets.
+- Build and deploy Machine Learning models using Python and popular libraries like scikit-learn, TensorFlow, and PyTorch.
+- Work on Natural Language Processing (NLP) tasks including text classification, sentiment analysis, and topic modeling.
+- Develop data pipelines using Pandas, NumPy, and SQL for data preprocessing.
+- Collaborate with cross-functional teams to deploy models using Flask or FastAPI.
+- Utilize Power BI for visualization and presenting findings to stakeholders.
+- Version control your work using Git and GitHub.
+Required Skills: - Strong programming skills in Python and familiarity with C++ or Java.
+- Experience with Machine Learning and Deep Learning algorithms.
+- Hands-on experience with TensorFlow, Keras, or PyTorch.
+- Knowledge of Natural Language Processing (NLP) techniques.
+- Strong analytical skills and ability to visualize data using Power BI or similar tools.
+- Familiarity with cloud platforms (AWS/GCP) is a plus.
+Education: - Bachelor's degree in Computer Science, Data Science, AI, or a related field.
+If you are excited about using data to drive business decisions and want to work on cutting-edge AI/ML projects, we would love to hear from you.

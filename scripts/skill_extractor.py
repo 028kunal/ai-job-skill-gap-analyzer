@@ -12,14 +12,14 @@ def load_skills(skill_file):
 
 def load_resume_text(resume_file):
     """
-    Loads cleaned resume text for skill extraction.
+    Loads cleaned text for skill extraction (resume or JD).
     """
     with open(resume_file, 'r', encoding='utf-8') as f:
         return f.read().lower()
 
 def extract_skills_from_resume(resume_text, skill_set):
     """
-    Extracts skills present in the resume by checking for keyword matches.
+    Extracts skills present by checking for keyword matches.
     Returns a sorted list of matched skills.
     """
     found_skills = set()
@@ -30,23 +30,25 @@ def extract_skills_from_resume(resume_text, skill_set):
 
 if __name__ == "__main__":
     skill_file = "data/skills_list.txt"
-    resume_file = "data/processed/kunal_jain_resume_cleaned.txt"
-    output_file = "data/processed/kunal_jain_extracted_skills.txt"
+
+    # ✅ CONFIG: Extracting skills from JD
+    resume_file = "data/processed/sample_jd_cleaned.txt"
+    output_file = "data/processed/sample_jd_extracted_skills.txt"
 
     skill_set = load_skills(skill_file)
     resume_text = load_resume_text(resume_file)
     extracted_skills = extract_skills_from_resume(resume_text, skill_set)
 
     if extracted_skills:
-        print("Skills Found in Resume:")
+        print("Skills Found in JD:")
         for skill in extracted_skills:
             print("-", skill)
     else:
-        print("No skills found in resume.")
+        print("No skills found in JD.")
 
     # Save extracted skills
     with open(output_file, 'w', encoding='utf-8') as f:
         for skill in extracted_skills:
             f.write(skill + '\n')
 
-    print(f"\nExtracted skills saved to {output_file}")
+    print(f"\n✅ Extracted JD skills saved to {output_file}")

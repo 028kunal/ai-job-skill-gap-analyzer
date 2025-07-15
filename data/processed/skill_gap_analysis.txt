@@ -1,0 +1,23 @@
+Matched Skills:
+- C
+- C++
+- Data Science
+- Eda
+- Git
+- Github
+- Java
+- Machine Learning
+- Nlp
+- Power Bi
+- Python
+- Sql
+
+Missing Skills (Skill Gaps):
+- Data Analysis
+- Deep Learning
+- Flask
+- Keras
+- Numpy
+- Pandas
+- Scikit-Learn
+- Tensorflow

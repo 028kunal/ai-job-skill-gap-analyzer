@@ -2,23 +2,20 @@
 
 def clean_text(text):
     """
-    Cleans extracted resume text:
+    Cleans extracted text:
     - Removes extra blank lines
-    - Joins broken lines
+    - Joins broken lines intelligently
     - Strips unnecessary whitespace
     """
-
     lines = text.splitlines()
     cleaned_lines = []
 
     for line in lines:
-        # Remove leading/trailing whitespaces
         stripped_line = line.strip()
         if stripped_line != "":
             cleaned_lines.append(stripped_line)
 
     # Join lines intelligently:
-    # If the previous line does not end with punctuation, merge with current
     merged_lines = []
     buffer = ""
     for line in cleaned_lines:
@@ -38,13 +35,16 @@ def clean_text(text):
 
 
 if __name__ == "__main__":
-    # Test the cleaner
-    with open("data/processed/kunal_jain_resume_text.txt", "r", encoding="utf-8") as f:
+    # ✅ CONFIG: Change these paths to clean the desired file (resume or JD)
+    input_file = "data/processed/sample_jd_text.txt"
+    output_file = "data/processed/sample_jd_cleaned.txt"
+
+    with open(input_file, "r", encoding="utf-8") as f:
         raw_text = f.read()
 
     cleaned_text = clean_text(raw_text)
 
-    with open("data/processed/kunal_jain_resume_cleaned.txt", "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(cleaned_text)
 
-    print("Cleaned text saved to data/processed/kunal_jain_resume_cleaned.txt")
+    print(f"✅ Cleaned text saved to {output_file}")
