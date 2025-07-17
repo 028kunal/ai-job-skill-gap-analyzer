@@ -44,12 +44,9 @@ AI-powered Streamlit application for analyzing skill gaps between your resume an
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/ai-job-skill-gap-analyzer.git
+git clone https://github.com/028kunal/ai-job-skill-gap-analyzer.git
 cd ai-job-skill-gap-analyzer
 
-yaml
-Copy
-Edit
 
 2. (Recommended) Create and activate a virtual environment:
 
@@ -64,9 +61,7 @@ On Windows:
 python -m venv venv
 venv\Scripts\activate
 
-markdown
-Copy
-Edit
+
 
 3. Install the required dependencies:
 
@@ -80,17 +75,11 @@ Edit
 
 streamlit run app.py
 
-css
-Copy
-Edit
 
 5. Open your browser and navigate to:
 
 http://localhost:8501
 
-markdown
-Copy
-Edit
 
 ## Dependencies
 
@@ -106,9 +95,6 @@ You can install them using:
 
 pip install -r requirements.txt
 
-csharp
-Copy
-Edit
 
 ## Future Enhancements
 
